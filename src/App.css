@@ -5,3 +5,28 @@
 .movieCard {
   width: 15rem;
 }
+.card-text-margin {
+  margin-top: -24px;
+}
+.director-name-small {
+  font-size: 12px;
+}
+.movie-name-small {
+  font-size: 20px;
+  margin-bottom: -11px;
+}
+
+.movie-card-list-spacing {
+  height: 15px;
+}
+
+.movie-list-card-img {
+  height: 240px;
+}
+
+.home-list {
+  margin-top: 15px;
+}
+.home-list-button {
+  margin-top: 10px;
+}

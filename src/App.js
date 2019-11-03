@@ -6,6 +6,7 @@ import ListingPage from "./Pages/ListingPage";
 import WatchList from "./Pages/WatchList";
 import Error from "./Pages/Error";
 import MovieCard from "./Components/MovieCard";
+import MovieList from "./Components/MovieList";
 
 import { Route, Switch } from "react-router-dom";
 
@@ -14,7 +15,6 @@ function App() {
     <>
       <div className="container">
         <Navbar></Navbar>
-        <MovieCard></MovieCard>
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/watchlist/" component={WatchList} />
